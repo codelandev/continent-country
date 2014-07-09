@@ -8,9 +8,11 @@ of that file.
 
 ## How to use this?
 
-In order to use this plugin, you need to add the following code inside your `html` file:
+In order to use this plugin, you need to add the following above:
 
-### Rails input on your view
+### Copy the main file inside your project and require this on `application.js`
+
+### Put Simple Form (or whatever) input on your view
 
 ```
 = f.input :continent, required: true
