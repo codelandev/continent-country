@@ -10,7 +10,7 @@ of that file.
 
 In order to use this plugin, you need to add the following above:
 
-### Copy the main file inside your project and require this on `application.js`
+### Copy the main file inside your project and require this
 
 ### Put Simple Form (or whatever) input on your view
 
