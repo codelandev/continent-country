@@ -3,7 +3,7 @@
 ## What is it?
 
 This is a small JavaScript file which can transform a select box in a country selector field
-accordly to the continent selected, very similar to the 'cidades-estados' javascript file (actually, this is a fork)
+accordly to the continent selected, very similar to the [cidades-estados](https://code.google.com/p/cidades-estados-js/)   javascript file (actually, this is a fork)
 of that file.
 
 ## How to use this?
