@@ -114,8 +114,8 @@ dgContinentsCountries.prototype = {
     elm.appendChild(opt);
   },
   continents : [
-    ['', ''],['AF', 'Africa'], ['AN', 'Antarctica'], ['AS', 'Asia'], ['OC', 'Oceania'],
-    ['EU', 'Europe'], ['NA', 'North America'], ['SA', 'South America']
+    ['', ''],['Africa', 'Africa'], ['Antarctica', 'Antarctica'], ['Asia', 'Asia'], ['Oceania', 'Oceania'],
+    ['Europe', 'Europe'], ['North America', 'North America'], ['South America', 'South America']
   ],
   countries : [
   /* Prompt */
