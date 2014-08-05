@@ -19,7 +19,7 @@ In order to use this plugin, you need to add the following above:
 = f.input :country, as: :string, required: true
 ```
 
-**NOTE:** See this `as: :string` up? this is to resolve conflicts with `contry_select` gem.
+**NOTE:** See this `as: :string` up? this is to resolve conflicts with `country_select` gem.
 
 ### With jQuery
 

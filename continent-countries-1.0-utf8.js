@@ -94,7 +94,7 @@ dgContinentsCountries.prototype = {
   start: function () {
     var continent = this.continent;
     while (continent.childNodes.length) continent.removeChild(continent.firstChild);
-    for (var i=0;i<this.continents.length;i++) this.addOption(continent, this.continents[i][1], this.continents[i][1]);
+    for (var i=0;i<this.continents.length;i++) this.addOption(continent, this.continents[i][0], this.continents[i][1]);
   },
   run: function () {
   var sel = this.continent.selectedIndex;
@@ -114,7 +114,7 @@ dgContinentsCountries.prototype = {
     elm.appendChild(opt);
   },
   continents : [
-    ['', ''],['Africa', 'Africa'], ['Antarctica', 'Antarctica'], ['Asia', 'Asia'], ['Oceania', 'Oceania'],
+    ['', 'Select a continent'],['Africa', 'Africa'], ['Antarctica', 'Antarctica'], ['Asia', 'Asia'], ['Oceania', 'Oceania'],
     ['Europe', 'Europe'], ['North America', 'North America'], ['South America', 'South America']
   ],
   countries : [
