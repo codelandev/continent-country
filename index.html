@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Continent Country DEMO Page</title>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="continent-countries-1.0-utf8.js"></script>
+</head>
+<body>
+  <h1>This is a DEMO page showing how Continent-Country gem works!</h1>
+  <p>Maybe some modifications or adjusts for the countries are needed, but you can fork and create a Pull Request from GitHub</p>
+  <select id="continent"></select>
+  <select id="country"></select>
+</body>
+<footer>
+  <script type="text/javascript">
+  $(function() {
+    new dgContinentsCountries({
+      continentVal: document.getElementById("continent").val,
+      countryVal: document.getElementById("country").val,
+      continent: document.getElementById("continent"),
+      country: document.getElementById("country"),
+      change: true
+    });
+  });
+  </script>
+</footer>
+</html>
