@@ -54,3 +54,6 @@ It's simple!
 
 ## Credits
 The credits go mainly for the creators of the first plugin 'cidades-estados' [Roberto](https://code.google.com/u/roberto.cr/) && [Michael](https://code.google.com/u/michaelgranados/)
+
+## Extra
+Need files with the name of all countries and their cities? (Here)[https://github.com/codelandev/continent-country/wiki/File-with-countries-and-cities-(pt-BR)] we are!
